@@ -1,0 +1,7 @@
+project: fastpfor
+target: fastpfor
+
+cmds:
+  - cmd: /repo/build/entropy @@
+    env:
+      DISABLE_SMOKETEST: '1'
