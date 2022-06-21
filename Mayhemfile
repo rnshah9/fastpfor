@@ -1,5 +1,7 @@
 project: fastpfor
 target: entropy
+testsuite:
+  - file://test
 
 cmds:
   - cmd: /repo/build/entropy @@
