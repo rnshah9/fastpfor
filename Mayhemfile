@@ -4,6 +4,6 @@ testsuite:
   - file://test
 
 cmds:
-  - cmd: /repo/build/entropy @@
+  - cmd: /entropy @@
     env:
       DISABLE_SMOKETEST: '1'
